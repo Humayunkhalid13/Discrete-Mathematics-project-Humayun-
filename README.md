@@ -39,7 +39,7 @@ class KeyGenerator
             result = BigInteger.Abs(result);
         }
 
-        public bool MillerRabinTest(int k)               //primality test
+           public bool Test(int k) 
         {
             if (result == 2 || result == 3)
                 return true;
