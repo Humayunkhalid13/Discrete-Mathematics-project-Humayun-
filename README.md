@@ -89,3 +89,36 @@ class KeyGenerator
             }
             return true;
         }
+        public BigInteger GetNearestPrime()                  //get the next prime
+        {
+            while (MillerRabinTest(10) == false)
+            {
+                result++;
+            }
+            return result;
+        }
+       
+           public void EulerFunction(int p, int q)          //euler function: f(n) = (p-1)(q-1)
+             {
+                int m = p - 1;
+                int n = q - 1;
+                f = m * n;
+           }
+        
+
+        public BigInteger GeneratePublicKey(BigInteger e, BigInteger n)        // public key
+        {
+            while (e > 1)
+            {
+                BigInteger ef = BigInteger.Pow(e, f);
+                ef = 1 % n;
+            }
+            return e;
+        }
+
+        public void GeneratePrivateKey(BigInteger e)                  //private key
+        {
+            d = (1 / e) % f;
+        }
+    }
+}
