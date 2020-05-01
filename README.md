@@ -137,3 +137,17 @@ class EncryptorDecryptor
             m = BigInteger.ModPow(cResult, d, n);
         }
     }
+#KeyGenerator Encryption Code
+  KeyGenerator p = new KeyGenerator();
+                KeyGenerator q = new KeyGenerator();
+                KeyGenerator e = new KeyGenerator();
+                KeyGenerator f = new KeyGenerator();
+                KeyGenerator pub_key = new KeyGenerator();
+                KeyGenerator priv_key = new KeyGenerator();
+                EncryptorDecryptor cipher = new EncryptorDecryptor();
+                EncryptorDecryptor plain = new EncryptorDecryptor();
+
+                p.randomGenerator();
+                q.randomGenerator();
+                e.randomGenerator();
+
