@@ -163,7 +163,7 @@ class EncryptorDecryptor
                     n = p.result * q.result;
                 }
 
-                f.EulerFunction(p.result , q.result);
+                f.EulerFunction((int)p.result , (int)q.result);
                 pub_key.GeneratePublicKey(e.result, n);
                 priv_key.GeneratePrivateKey(e.result);
 
