@@ -217,3 +217,19 @@ n is known as the modulus.
 e is known as the public exponent or encryption exponent or just the exponent.
 d is known as the secret exponent or decryption exponent.
 Instead of φ Euler function you can use λ=lcm(p−1,q−1) Carmichael function.
+
+Problems Faced in the project: 
+ Problem #01: 
+We get Main problem of Generate Big Numerical Values which was give such errors in our project and by the help of google we get an exclusive help of library name System.numeric from which our problem was solved. 
+ Problem #02: 
+Another problem Faced by us was generate Public key which is solved by YouTube as in the video they easily tell us about How to generate public key?? 
+ 
+Some problems which are not solved until now: 1.  There is a loop produce which runs infinity times as the function generate Public key loop infinity.  2. Another problem is that there is an error on conversion of Co Int 
+ 
+ 
+References 
+https://github.com/Humayunkhalid13/Discrete-Mathematics-projectHumayun- 
+ 
+1.YouTube  
+ 
+2.Google  
