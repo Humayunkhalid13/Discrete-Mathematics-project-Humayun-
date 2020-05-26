@@ -214,3 +214,6 @@ e), d).]
 About the variables:
 p,q are the most common variables for prime numbers.
 n is known as the modulus.
+e is known as the public exponent or encryption exponent or just the exponent.
+d is known as the secret exponent or decryption exponent.
+Instead of φ Euler function you can use λ=lcm(p−1,q−1) Carmichael function.
