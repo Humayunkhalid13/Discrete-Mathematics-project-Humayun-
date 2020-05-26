@@ -91,7 +91,7 @@ class KeyGenerator
         }
         public BigInteger GetNearestPrime()                  //get the next prime
         {
-            while (MillerRabinTest(10) == false)
+            while (Test(10) == false)
             {
                 result++;
             }
