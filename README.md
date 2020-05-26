@@ -150,4 +150,34 @@ class EncryptorDecryptor
                 p.randomGenerator();
                 q.randomGenerator();
                 e.randomGenerator();
+                
+                BigInteger n;
+                if (p.Test(10) == true && q.Test(10) == true)
+                {
+                    n = p.result * q.result;
+                }
+                else
+                {
+                    p.GetNearestPrime();
+                    q.GetNearestPrime();
+                    n = p.result * q.result;
+                }
+
+                f.EulerFunction(p.result , q.result);
+                pub_key.GeneratePublicKey(e.result, n);
+                priv_key.GeneratePrivateKey(e.result);
+
+                Console.WriteLine("Enter your message:");
+                string msg = Console.ReadLine(); 
+                BigInteger m = BigInteger.Parse(msg);
+
+                cipher.Encrypt(m, e.result, n);
+                Console.WriteLine("The ciphertext is : {0}", cipher.c);
+
+                plain.Decrypt(cipher.c, priv_key.d, n);
+                Console.WriteLine("The plaintext is : {0}", plain.m);
+
+            }
+        }
+    }
 
