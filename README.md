@@ -192,7 +192,7 @@ C#(sharp)
 Class Id: 103348
 
 Group Members:
-Hassan khan (group leader) 64089
+HASSAN KHAN (group leader) 64089
 Mohammad Humayun Khalid 64086
 Muhammad Hashir 64093
 Muhammad Saim 64088
