@@ -181,8 +181,7 @@ class EncryptorDecryptor
         }
     }
 
-# PROJECT REPORT:
-
+PROJECT REPORT:
 Name Of Project:
 RSA Cryptography
 
