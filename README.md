@@ -227,7 +227,7 @@ Some problems which are not solved until now: 1.  There is a loop produce which 
  
  
 References 
-https://github.com/Humayunkhalid13/Discrete-Mathematics-projectHumayun- 
+ https://github.com/Humayunkhalid13/Discrete-Mathematics-project-Humayun-/edit/master/README.md
  
 1.YouTube  
  
